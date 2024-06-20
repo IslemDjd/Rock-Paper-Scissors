@@ -14,11 +14,11 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
   },
   {
-    path: "/simplemode",
+    path: "simplemode",
     element: <SimpleMode />,
   },
   {
-    path: "/advancedmode",
+    path: "advancedmode",
     element: <AdvancedMode />,
   },
 ]);
