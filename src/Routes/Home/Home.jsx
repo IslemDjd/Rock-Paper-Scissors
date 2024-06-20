@@ -8,7 +8,7 @@ const Home = () => {
   };
   return (
     <>
-      <div className="bg-Background h-screen flex flex-col justify-center items-center">
+      <div className="h-screen flex flex-col justify-center items-center">
         <div className="flex justify-center items-center m-8">
           <img src={Logo} alt="LOGO" />
         </div>

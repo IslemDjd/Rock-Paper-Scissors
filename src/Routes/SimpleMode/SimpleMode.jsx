@@ -28,7 +28,7 @@ const SimpleMode = () => {
   };
 
   return (
-    <div className="bg-Background min-h-screen flex flex-col border-[1px] border-transparent">
+    <div className="bg-Background min-h-screen flex flex-col border-transparent">
       {/* Header(Score) */}
       <div className="flex justify-between items-center border-2 border-gray-500 rounded-md sm:w-[60%] w-11/12 mx-auto mt-10 p-5">
         <img src={Logo} className="w-24" alt="Logo" />
