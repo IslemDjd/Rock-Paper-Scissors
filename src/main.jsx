@@ -6,6 +6,7 @@ import Home from './Routes/Home/Home';
 import SimpleMode from './Routes/SimpleMode/SimpleMode';
 import ErrorPage from './Routes/Error/ErrorPage';
 import AdvancedMode from './Routes/AdvancedMode/AdvancedMode';
+import Footer from './Components/Footer/Footer';
 
 const router = createBrowserRouter([
   {
@@ -26,5 +27,6 @@ const router = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <RouterProvider router={router} />
+    <Footer/>
   </React.StrictMode>
 );
